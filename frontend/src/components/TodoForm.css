@@ -1,0 +1,53 @@
+.todoForm {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.todoForm .todoForm__container {
+  width: 80%;
+  height: 200px;
+  background-color: #6B5D62;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 85%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 85%, 0% 100%);
+}
+
+.todoForm .todoForm__container .todoForm__container--inputField {
+  height: 40px;
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+.todoForm .todoForm__container .todoForm__container--inputField:focus {
+  outline: none;
+}
+
+.todoForm .todoForm__container .todoForm__container--button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=TodoForm.css.map */
