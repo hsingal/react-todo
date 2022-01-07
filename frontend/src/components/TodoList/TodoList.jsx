@@ -1,10 +1,18 @@
+import TodoListItem from '../TodoListItem/TodoListItem'
 import './TodoList.css'
 
 const TodoList = () => {
   return (
     <div className='todoList'>
       <div className="todoList__container">
-      TodoList
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
       </div>
       
     </div>
