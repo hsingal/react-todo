@@ -30,6 +30,7 @@
 }
 
 .todoList .todoList__container {
+  padding: 20px 0px;
   width: 80%;
   height: auto;
   background-color: #6b5d62;
