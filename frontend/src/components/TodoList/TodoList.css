@@ -15,7 +15,7 @@
 .todoList .todoList__container--empty {
   width: 80%;
   height: 500px;
-  background-color: #6B5D62;
+  background-color: #6b5d62;
   font-size: 20px;
   color: white;
   display: -webkit-box;
@@ -32,7 +32,7 @@
 .todoList .todoList__container {
   width: 80%;
   height: 500px;
-  background-color: #6B5D62;
+  background-color: #6b5d62;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
