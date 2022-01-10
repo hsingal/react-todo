@@ -6,6 +6,7 @@ const TodoList = ({ todoItemsList, setTodoList }) => {
     //const removedTodoItem = todoItemsList.find(item => item.id === todoItem.id)
     setTodoList(todoItemsList.filter((item) => item.id !== todoItem.id));
   };
+
   if (`${todoItemsList.length}` === "0") {
     return (
       <div className="todoList">
@@ -21,6 +22,7 @@ const TodoList = ({ todoItemsList, setTodoList }) => {
               key={item.id}
               todoItem={item}
               onDeleteTodoItem={deleteTodoItem}
+          
             />
           ))}
         </div>
