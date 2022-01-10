@@ -1,6 +1,6 @@
 .todoList {
   width: 100%;
-  height: 550px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,7 +14,7 @@
 
 .todoList .todoList__container--empty {
   width: 80%;
-  height: 500px;
+  height: auto;
   background-color: #6b5d62;
   font-size: 20px;
   color: white;
@@ -30,8 +30,9 @@
 }
 
 .todoList .todoList__container {
+  padding: 20px 0px;
   width: 80%;
-  height: 500px;
+  height: auto;
   background-color: #6b5d62;
   display: -webkit-box;
   display: -ms-flexbox;
